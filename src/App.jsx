@@ -7,6 +7,7 @@ import Title from "./component/Title/Title.jsx";
 import About from "./component/About/About.jsx";
 import Campus from "./component/Campus/Campus.jsx";
 import Testimonial from "./component/Testimonial/Testimonial.jsx";
+import Contact from "./component/Contact/Contact.jsx";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Campus />
         <Title subTitle="Testimonials" title="What Student Says" />
         <Testimonial />
+        <Title subTitle="Contact Us" title="Get In Touch" />
+        <Contact />
       </div>
     </div>
   );
