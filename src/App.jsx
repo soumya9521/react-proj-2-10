@@ -8,6 +8,7 @@ import About from "./component/About/About.jsx";
 import Campus from "./component/Campus/Campus.jsx";
 import Testimonial from "./component/Testimonial/Testimonial.jsx";
 import Contact from "./component/Contact/Contact.jsx";
+import Footer from "./component/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Testimonial />
         <Title subTitle="Contact Us" title="Get In Touch" />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
